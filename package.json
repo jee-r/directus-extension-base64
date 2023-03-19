@@ -2,7 +2,7 @@
 	"name": "directus-extension-base64",
 	"description": "generate a base64 string from image",
 	"icon": "extension",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -25,7 +25,7 @@
 		"dev": "directus-extension build -w --no-minify",
 		"link": "directus-extension link",
 		"changelog": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s",
-    	"version": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s && git add CHANGELOG.md"
+		"version": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "9.23.1",
