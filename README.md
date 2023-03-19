@@ -5,13 +5,13 @@ This is a Directus extension that encodes uploaded images in base64 format. The 
 
 ## Todo
 
-- [] Write a real README
-- [] Explain why sharp path is Harcoded
+- [ ] Write a real README
+- [ ] Explain why sharp path is Harcoded
 `const sharp = require("/directus/node_modules/sharp");` 
 spoiler: it's because we need to use sharp installed by directus
-- [] Publish a package on npm
-- [] CI/CD
-- [] Explain how using it in a flow  
+- [ ] Publish a package on npm
+- [ ] CI/CD
+- [ ] Explain how using it in a flow  
 
 
 ## Installation
