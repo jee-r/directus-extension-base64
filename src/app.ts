@@ -3,7 +3,7 @@ import { defineOperationApp } from '@directus/extensions-sdk';
 export default defineOperationApp({
 	id: 'base64',
 	name: 'base64',
-	icon: 'box',
+	icon: 'image',
 	description: 'Generate a base64 on image upload',
 	overview: ({ text }) => [
 		{
