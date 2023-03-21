@@ -2,7 +2,7 @@
 	"name": "directus-extension-base64",
 	"description": "generate a base64 string from image",
 	"icon": "extension",
-	"version": "1.0.1",
+	"version": "0.0.1",
 	"keywords": [
 		"directus",
 		"directus-extension",
