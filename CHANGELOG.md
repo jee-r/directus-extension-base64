@@ -1,3 +1,15 @@
+## [0.1.0](https://github.com/jee-r/directus-extension-base64/compare/v0.0.1...v0.1.0) (2023-03-21)
+
+
+### Features
+
+* add option for width and height ([dd1af7b](https://github.com/jee-r/directus-extension-base64/commit/dd1af7b960ee3a7057ff2383d92cd327a48eb3d8))
+
+
+### Chores
+
+* rename tag and start from 0.0.1 ([17bd5a5](https://github.com/jee-r/directus-extension-base64/commit/17bd5a51d4cf2520ab9a0011452241bc74144fe0))
+
 ### [0.0.1](https://github.com/jee-r/directus-extension-base64/compare/051eb63e96965289e1ce7e8dfb87d7e7770c9369...v0.0.1) (2023-03-21)
 
 
