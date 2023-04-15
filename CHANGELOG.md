@@ -1,3 +1,10 @@
+## [0.2.0](https://github.com/jee-r/directus-extension-base64/compare/v0.1.0...v0.2.0) (2023-04-15)
+
+
+### Bug Fixes
+
+* output file should .cjs due to directus  v9.25.0 Breaking change ([e5d7a31](https://github.com/jee-r/directus-extension-base64/commit/e5d7a310403f4f53a8980fd854ea14789e60f9f2))
+
 ## [0.1.0](https://github.com/jee-r/directus-extension-base64/compare/v0.0.1...v0.1.0) (2023-03-21)
 
 
