@@ -2,6 +2,7 @@
 	"name": "directus-extension-base64",
 	"description": "generate a base64 string from image",
 	"icon": "extension",
+	"license": "MIT",
 	"version": "0.3.0",
 	"keywords": [
 		"directus",
