@@ -3,6 +3,7 @@
 	"description": "generate a base64 string from image",
 	"icon": "extension",
 	"license": "MIT",
+	"author": "Jee R",
 	"version": "0.3.0",
 	"keywords": [
 		"directus",
