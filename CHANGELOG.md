@@ -1,3 +1,24 @@
+## [0.3.0](https://github.com/jee-r/directus-extension-base64/compare/v0.2.0...v0.3.0) (2023-10-29)
+
+
+### Styles
+
+* clean up code ([787203a](https://github.com/jee-r/directus-extension-base64/commit/787203a27e240a9aac3b5624d62aacc0a38a7bfd))
+
+
+### Chores
+
+* **deps:** update conventional-changelog-cli ([8267655](https://github.com/jee-r/directus-extension-base64/commit/8267655ad70b5f5fe4802e44b5e0a64aa7076f19))
+* **deps:** update directus/extensions-sdk ([3ebdf6c](https://github.com/jee-r/directus-extension-base64/commit/3ebdf6cc5da3518bb4743ff50dcd603ee27e826e))
+* **deps:** update types/node ([2c074fb](https://github.com/jee-r/directus-extension-base64/commit/2c074fbfeb9483aa2205c4379c46bd51c2a8d915))
+* **deps:** update typescript ([cfca5c2](https://github.com/jee-r/directus-extension-base64/commit/cfca5c2cda51ae3ac32146b72c5ed0a0b094db79))
+* **deps:** update vue ([12f4b80](https://github.com/jee-r/directus-extension-base64/commit/12f4b80113cfb7cf9045618a6cd3d1a67563a678))
+
+
+### Build System
+
+* datatype is already declared ([9a2990d](https://github.com/jee-r/directus-extension-base64/commit/9a2990d9094e884c5adaa2153e75771dec77d5a0))
+
 ## [0.2.0](https://github.com/jee-r/directus-extension-base64/compare/v0.1.0...v0.2.0) (2023-04-15)
 
 
