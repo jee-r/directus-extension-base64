@@ -32,6 +32,6 @@
 		"@types/node": "^20.8.9",
 		"conventional-changelog-cli": "^4.1.0",
 		"typescript": "^5.2.2",
-		"vue": "^3.2.47"
+		"vue": "^3.3.4"
 	}
 }
