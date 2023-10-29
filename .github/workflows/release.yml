@@ -25,7 +25,7 @@ jobs:
       - name: Publish to npmjs Package Registry
         run: npm publish --registry=https://registry.npmjs.org/ --access public
       - name: Set up Node.js environment for GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_GH_TOKEN }}" > ~/.npmrc
       - name: Publish to GitHub npm Package Registry
         run: npm publish --registry=https://npm.pkg.github.com --access public
       - name: Upload Artifact
