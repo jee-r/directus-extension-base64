@@ -1,3 +1,10 @@
+## [0.3.3](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.2...v0.3.3) (2023-10-29)
+
+
+### Continuous Integration
+
+* publish package to npmjs and github registry ([a92cf73](https://example.com/github.com/jee-r/directus-extension-base64/commit/a92cf73cecab1286064393ba87897c4c36031a01))
+
 ## [0.3.2](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.1...v0.3.2) (2023-10-29)
 
 
