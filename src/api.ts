@@ -1,5 +1,6 @@
 import { defineOperationApi } from '@directus/extensions-sdk';
 const { join } = require("path");
+// We need to use sharp lib bundeled with Directus
 const sharp = require("/directus/node_modules/sharp");
 // import { Sharp } from 'sharp';
 
@@ -16,15 +17,7 @@ export default defineOperationApi<Options>({
 	id: 'base64',
 	handler: async ({ imageObject, format, quality, width }, { data, logger, env }) => {
 
-		// const image: any = imageObject ?? data.$last
 		const image: any = data.$last
-		// logger.info("image: " + JSON.stringify(image))
-		// logger.info("data : " + JSON.stringify(data.$last))
-
-		// logger.info("typeof imageObject : " + typeof(imageObject) + ", value: " + imageObject )
-		// logger.info("typeof width : " + typeof(width) + ", width: " + width )
-		// logger.info("typeof quality : " + typeof(quality) + ", value: " + quality )
-		// logger.info("typeof format : " + typeof(format) + ", value: " + format )
 
 		if (!["image/jpeg", "image/png", "image/webp", "image/gif", "image/tiff"].includes(image.type)) {
 			logger.info(`Image type ${image.type} for ${image.filename_disk} is not supported`);

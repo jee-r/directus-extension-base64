@@ -10,10 +10,6 @@ export default defineOperationApp({
 			label: 'Directus file object',
 			text: imageObject,
 		},
-		// {
-		// 	label: 'Base64 format',
-		// 	text: format,
-		// },
 		{
 			label: 'Quality',
 			text: quality,
@@ -55,32 +51,6 @@ export default defineOperationApp({
 				interface: 'input',
 			},
 		},
-		// {
-		// 	field: 'format',
-		// 	name: 'Format',
-		// 	type: 'string',
-		// 	meta: {
-		// 		width: 'half',
-		// 		interface: 'select-dropdown',
-		// 		options: {
-		// 			choices: [
-		// 				{
-		// 					text: 'png',
-		// 					value: 'png',
-		// 				},
-		// 				{
-		// 					text: 'jpg',
-		// 					value: 'jpg',
-		// 				},
-		// 				{
-		// 					text: 'webp',
-		// 					value: 'webp',
-		// 				},
-		// 			],
-		// 			allowOther: true,
-		// 		},
-		// 	},
-		// },
 		{
 			field: 'quality',
 			name: 'Quality',
