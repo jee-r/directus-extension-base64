@@ -24,22 +24,19 @@ export default defineOperationApi<Options>({
 			return { base64: null };
 		}
 		
-
-
 		const base64_width = width ?? 10
 		const base64_quality = quality ?? 10
 		const base64_format = format ?? 'webp';
 
 		logger.info(`Processing image ${image.filename_disk} with width ${base64_width}, quality ${base64_quality}, and format ${base64_format}`);
 
-		const buffer = await sharp(join(env.STORAGE_LOCAL_ROOT, image.filename_disk)).resize({ width: parseInt(base64_width) }).webp({ quality: parseInt(base64_quality) }).toBuffer();
+		const buffer = await sharp(join(env.STORAGE_LOCAL_ROOT, image.filename_disk)).resize({ width: base64_width }).webp({ quality: base64_quality }).toBuffer();
 		const base64Data: string = Buffer.from(buffer).toString("base64");
 		const base64Prefix: string = "data:image/webp;base64,"
 		const base64: string = base64Prefix + base64Data
 
 		logger.info(`Base64 conversion for ${image.filename_disk} complete : `);
 		logger.info(base64);
-
 
 		return { base64 };
 	},
