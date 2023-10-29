@@ -1,39 +1,41 @@
 {
-	"name": "directus-extension-base64",
-	"description": "generate a base64 string from image",
-	"icon": "extension",
-	"license": "MIT",
-	"author": "Jee R",
-	"version": "0.3.1",
-	"keywords": [
-		"directus",
-		"directus-extension",
-		"directus-custom-operation"
-	],
-	"directus:extension": {
-		"type": "operation",
-		"path": {
-			"app": "dist/app.cjs",
-			"api": "dist/api.cjs"
-		},
-		"source": {
-			"app": "src/app.ts",
-			"api": "src/api.ts"
-		},
-		"host": "^9.23.1"
-	},
-	"scripts": {
-		"build": "directus-extension build",
-		"dev": "directus-extension build -w --no-minify",
-		"link": "directus-extension link",
-		"changelog": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s",
-		"version": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s && git add CHANGELOG.md"
-	},
-	"devDependencies": {
-		"@directus/extensions-sdk": "^10.1.14",
-		"@types/node": "^20.8.9",
-		"conventional-changelog-cli": "^4.1.0",
-		"typescript": "^5.2.2",
-		"vue": "^3.3.4"
-	}
+  "name": "@jee-r/directus-extension-base64",
+  "description": "generate a base64 string from image",
+  "icon": "extension",
+  "author": "Jee R",
+  "repository": "github.com/jee-r/directus-extension-base64",
+  "homepage": "https://github.com/jee-r/astro-decap-cms",
+  "license": "MIT",
+  "version": "0.3.1",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-custom-operation"
+  ],
+  "directus:extension": {
+    "type": "operation",
+    "path": {
+      "app": "dist/app.cjs",
+      "api": "dist/api.cjs"
+    },
+    "source": {
+      "app": "src/app.ts",
+      "api": "src/api.ts"
+    },
+    "host": "^9.23.1"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link",
+    "changelog": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s",
+    "version": "conventional-changelog --config ./changelog-config.js -i CHANGELOG.md -s && git add CHANGELOG.md"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "^10.1.14",
+    "@types/node": "^20.8.9",
+    "conventional-changelog-cli": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vue": "^3.3.4"
+  }
 }
