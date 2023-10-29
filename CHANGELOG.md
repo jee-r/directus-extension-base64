@@ -1,3 +1,15 @@
+## [0.3.2](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.1...v0.3.2) (2023-10-29)
+
+
+### Documentation
+
+* update Todo ([f519788](https://example.com/github.com/jee-r/directus-extension-base64/commit/f5197884f2a181e746574febe578002243c08c86))
+
+
+### Build System
+
+* scoped package ([97083a2](https://example.com/github.com/jee-r/directus-extension-base64/commit/97083a200f6ce47e6ddc0ba07203ba9b3a0b2407))
+
 ## [0.3.1](https://github.com/jee-r/directus-extension-base64/compare/v0.3.0...v0.3.1) (2023-10-29)
 
 
