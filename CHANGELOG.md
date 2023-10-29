@@ -1,3 +1,13 @@
+## [0.3.4](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.3...v0.3.4) (2023-10-29)
+
+
+### Continuous Integration
+
+* **fix:** add env NPM_TOKEN ([c4aa44c](https://example.com/github.com/jee-r/directus-extension-base64/commit/c4aa44cd5a56e40c307336987561a38434922b12))
+* **fix:** publish even if previous step failed ([d7bd086](https://example.com/github.com/jee-r/directus-extension-base64/commit/d7bd0860c8505178512ffd3acba22f4a4f9ae3fd))
+* **fix:** replace NPM_GH_TOKEN secret ([9bdc8d5](https://example.com/github.com/jee-r/directus-extension-base64/commit/9bdc8d57d95335d152f280bc2fb1e490e5f69b98))
+* **fix:** setup npmrc before publish ([15a6e2b](https://example.com/github.com/jee-r/directus-extension-base64/commit/15a6e2bf70522370976695697d110a4ad05b917d))
+
 ## [0.3.3](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.2...v0.3.3) (2023-10-29)
 
 
