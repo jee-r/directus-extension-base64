@@ -2,18 +2,6 @@
 
 This is a Directus extension that encodes uploaded images in base64 format. The extension takes an image file as input and returns its base64 encoded string.
 
-
-## Todo
-
-- [ ] Write a real README
-- [ ] Explain why sharp path is Harcoded
-`const sharp = require("/directus/node_modules/sharp");` 
-spoiler: it's because we need to use sharp installed by directus
-- [ ] Publish a package on npm
-- [ ] CI/CD
-- [ ] Explain how using it in a flow  
-
-
 ## Installation
 
 To install this extension, follow these steps:
@@ -57,6 +45,17 @@ This extension depends on the following packages:
 - `@directus/extensions-sdk`
 - `path`
 - `sharp`
+
+## Todo
+
+- [ ] Explain why sharp path is Harcoded
+`const sharp = require("/directus/node_modules/sharp");` 
+spoiler: it's because we need to use sharp installed by directus
+- [ ] Publish a package
+    - [ ] npmjs.com
+    - [ ] npm.pkg.github.com
+- [ ] CI/CD
+- [ ] Explain how using it in a flow  
 
 ## License
 
