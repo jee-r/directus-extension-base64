@@ -51,11 +51,11 @@ This extension depends on the following packages:
 - [ ] Explain why sharp path is Harcoded
 `const sharp = require("/directus/node_modules/sharp");` 
 spoiler: it's because we need to use sharp installed by directus
-- [ ] Publish a package
-    - [ ] npmjs.com
-    - [ ] npm.pkg.github.com
-- [ ] CI/CD
 - [ ] Explain how using it in a flow  
+- [x] Publish a package
+    - [x] npmjs.com
+    - [x] npm.pkg.github.com
+- [x] CI/CD
 
 ## License
 
