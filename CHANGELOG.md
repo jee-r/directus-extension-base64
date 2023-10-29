@@ -1,3 +1,11 @@
+## [0.3.1](https://github.com/jee-r/directus-extension-base64/compare/v0.3.0...v0.3.1) (2023-10-29)
+
+
+### Documentation
+
+* add author ([1a22889](https://github.com/jee-r/directus-extension-base64/commit/1a22889908b121c2d096d4b8385ad11cdc6ebd0f))
+* add License ([dc7848e](https://github.com/jee-r/directus-extension-base64/commit/dc7848e227f093e7bd3640b3ba2a350c3f554870))
+
 ## [0.3.0](https://github.com/jee-r/directus-extension-base64/compare/v0.2.0...v0.3.0) (2023-10-29)
 
 
