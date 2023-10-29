@@ -20,6 +20,12 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: Publish to npmjs Package Registry
+        run: npm publish --access public 
+      - name: Set up Node.js environment for GitHub Packages
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+      - name: Publish to GitHub npm Package Registry
+        run: npm publish --registry=https://npm.pkg.github.com --access public
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
