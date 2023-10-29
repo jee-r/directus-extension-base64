@@ -20,16 +20,20 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Set up Node.js environment for npmjs Registry
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-      - name: Publish to npmjs Package Registry
-        run: npm publish --registry=https://registry.npmjs.org/ --access public
-      - name: Set up Node.js environment for GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_GH_TOKEN }}" > ~/.npmrc
-      - name: Publish to GitHub npm Package Registry
-        run: npm publish --registry=https://npm.pkg.github.com --access public
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
           name: base64Gen
           path: ./dist
+      - name: Set up Node.js environment for npmjs Registry
+        if: ${{ ! cancelled() }}
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+      - name: Publish to npmjs Package Registry
+        if: ${{ ! cancelled() }}
+        run: npm publish --registry=https://registry.npmjs.org/ --access public
+      - name: Set up Node.js environment for GitHub Packages
+        if: ${{ ! cancelled() }}
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_GH_TOKEN }}" > ~/.npmrc
+      - name: Publish to GitHub npm Package Registry
+        if: ${{ ! cancelled() }}
+        run: npm publish --registry=https://npm.pkg.github.com --access public
