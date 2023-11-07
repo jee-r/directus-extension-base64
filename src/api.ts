@@ -14,7 +14,7 @@ type Options = {
 };
 
 export default defineOperationApi<Options>({
-	id: 'base64',
+	id: '@jee-r/directus-extension-base64',
 	handler: async ({ imageObject, format, quality, width }, { data, logger, env }) => {
 
 		const image: any = data.$last
