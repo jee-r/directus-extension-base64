@@ -24,7 +24,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: base64Gen
-          path: ./dist
+          path: |
+            package.json 
+            ./dist
       - name: Set up Node.js environment for npmjs Registry
         if: ${{ ! cancelled() }}
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
