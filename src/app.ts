@@ -1,7 +1,7 @@
 import { defineOperationApp } from '@directus/extensions-sdk';
 
 export default defineOperationApp({
-	id: '@jee-r/directus-extension-base64',
+	id: 'directus-extension-base64',
 	name: 'base64',
 	icon: 'image',
 	description: 'Generate a base64 on image upload',
