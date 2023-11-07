@@ -37,5 +37,13 @@
     "conventional-changelog-cli": "^4.1.0",
     "typescript": "^5.2.2",
     "vue": "^3.3.4"
+  },
+  "peerDependencies": {
+    "sharp": "^0.32.6"
+  },
+  "peerDependenciesMeta": {
+    "sharp": {
+      "optional": false
+    }
   }
 }

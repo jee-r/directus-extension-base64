@@ -1,9 +1,9 @@
 import { defineOperationApi } from '@directus/extensions-sdk';
 const { join } = require("path");
 // We need to use sharp lib bundeled with Directus
-const sharpPath = require.resolve("/directus/node_modules/.pnpm/sharp*");
-const sharp = require(sharpPath);
+// const sharp = require("/directus/node_modules/.pnpm/sharp@0.32.6/node_modules/");
 // import { Sharp } from 'sharp';
+// const sharp = require('sharp');
 
 type Options = {
 	imageObject?: string,
@@ -17,7 +17,16 @@ type Options = {
 export default defineOperationApi<Options>({
 	id: 'directus-extension-base64',
 	handler: async ({ imageObject, format, quality, width }, { data, logger, env }) => {
+	
+		let sharp: any = null;
 
+		try {
+		  sharp = require("sharp");
+		} catch (error) {
+		  console.log(error);
+		  process.exit(1);
+		}
+	  
 		const image: any = data.$last
 
 		if (!["image/jpeg", "image/png", "image/webp", "image/gif", "image/tiff"].includes(image.type)) {
