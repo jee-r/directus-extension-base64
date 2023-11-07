@@ -1,7 +1,7 @@
 import { defineOperationApi } from '@directus/extensions-sdk';
 const { join } = require("path");
 // We need to use sharp lib bundeled with Directus
-const sharp = require("/directus/node_modules/sharp");
+const sharp = require("/directus/node_modules/.pnpm/sharp*");
 // import { Sharp } from 'sharp';
 
 type Options = {
