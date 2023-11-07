@@ -1,3 +1,21 @@
+## [0.4.0](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.4...v0.4.0) (2023-11-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* update Directus 10.7 version
+* **deps:** Directus 10.7 and higher is required
+
+### Documentation
+
+* update todo ([6642d42](https://example.com/github.com/jee-r/directus-extension-base64/commit/6642d42ad6215254ed30372975b9a4b70250a0d2))
+
+
+### Build System
+
+* **deps:** import sharp from pnpm ([da61292](https://example.com/github.com/jee-r/directus-extension-base64/commit/da6129233911895a0d829267a30f506ca3ff9550))
+* update Directus 10.7 version ([afa338e](https://example.com/github.com/jee-r/directus-extension-base64/commit/afa338ee446919c0965f63bec57365010bcab229))
+
 ## [0.3.4](https://example.com/github.com/jee-r/directus-extension-base64/compare/v0.3.3...v0.3.4) (2023-10-29)
 
 

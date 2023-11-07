@@ -6,7 +6,7 @@
   "repository": "github.com/jee-r/directus-extension-base64",
   "homepage": "https://github.com/jee-r/astro-decap-cms",
   "license": "MIT",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "keywords": [
     "directus",
     "directus-extension",
